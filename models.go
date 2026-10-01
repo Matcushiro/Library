@@ -45,6 +45,16 @@ func (b *Book) IssueBook() {
 	fmt.Printf("\nКнига %s была выдана\n", b.Title)
 }
 
+func (b *Book) ReturnBook() {
+	if b.IsIssued {
+		b.IsIssued = false
+		fmt.Printf("\nКнига %s была возвращена\n", b.Title)
+	} else {
+		fmt.Println("Книгу уже вернули")
+	}
+
+}
+
 func (lib *Library) AddReader(firstname, lastname string) *Reader {
 	lib.lastReaderID++
 
