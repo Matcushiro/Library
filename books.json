@@ -1,0 +1,91 @@
+{
+  "books": [
+    {
+      "ID": 1,
+      "Title": "Вокруг света за 80 дней",
+      "Author": {
+        "Name": "Жуль",
+        "Surname": "Верн"
+      },
+      "IsIssued": false,
+      "ReaderID": 0
+    },
+    {
+      "ID": 2,
+      "Title": "Таинственный остров",
+      "Author": {
+        "Name": "Жуль",
+        "Surname": "Верн"
+      },
+      "IsIssued": false,
+      "ReaderID": 0
+    },
+    {
+      "ID": 3,
+      "Title": "Остров сокровищ",
+      "Author": {
+        "Name": "Роберт",
+        "Surname": "Стивенсон"
+      },
+      "IsIssued": false,
+      "ReaderID": 0
+    },
+    {
+      "ID": 4,
+      "Title": "2:36 по Аляске",
+      "Author": {
+        "Name": "Анастасия",
+        "Surname": "Гор"
+      },
+      "IsIssued": false,
+      "ReaderID": 0
+    },
+    {
+      "ID": 5,
+      "Title": "Менталитет Мамбы",
+      "Author": {
+        "Name": "Коби",
+        "Surname": "Брайант"
+      },
+      "IsIssued": false,
+      "ReaderID": 0
+    }
+  ],
+  "readers": [
+    {
+      "ID": 1,
+      "Name": "Мигель",
+      "IsActive": false
+    },
+    {
+      "ID": 2,
+      "Name": "Александр",
+      "IsActive": false
+    },
+    {
+      "ID": 3,
+      "Name": "Анатолий",
+      "IsActive": false
+    },
+    {
+      "ID": 4,
+      "Name": "Милана",
+      "IsActive": false
+    },
+    {
+      "ID": 5,
+      "Name": "Игорь",
+      "IsActive": false
+    },
+    {
+      "ID": 6,
+      "Name": "Алана",
+      "IsActive": false
+    },
+    {
+      "ID": 7,
+      "Name": "Виктория",
+      "IsActive": false
+    }
+  ]
+}
